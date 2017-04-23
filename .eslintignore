@@ -1,0 +1,11 @@
+www
+platforms
+plugins
+dist/*
+dist/help/
+dist/vendor/
+bootstrap-ace/
+.idea
+.nyc_output
+local/
+webpack.config.*
