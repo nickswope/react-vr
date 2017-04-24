@@ -7,12 +7,13 @@ import {
   Text,
   View,
 } from 'react-vr'
+import Snowman from './vr/Snowman'
 
 export default class WelcomeToVR extends React.Component {
   render () {
     return (
       <View>
-        <Pano source={asset('chess-world.jpg')}/>
+        <Pano source={asset('chess-world.jpg')} />
         <Text
           style={{
             backgroundColor: '#777879',
@@ -26,6 +27,7 @@ export default class WelcomeToVR extends React.Component {
           }}>
           hello
         </Text>
+        <Snowman />
       </View>
     )
   }
